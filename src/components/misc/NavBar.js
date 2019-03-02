@@ -27,6 +27,10 @@ const NavBar = () => (
         <NavLink className="navbar-item" to="/profile" activeClassName="is-active">
           Profile
         </NavLink>
+
+        <NavLink className="navbar-item" to="/contacts" activeClassName="is-active">
+          Contacts
+        </NavLink>
       </div>
     </div>
   </nav>
